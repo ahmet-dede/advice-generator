@@ -32,7 +32,9 @@ async function fetchAdvice() {
     console.error("Error fetching advice:", error);
     loadingElement.innerText = "Error fetching advice. Please try again.";
   }
+
   adviceButtonElement.removeAttribute("disabled");
+  adviceButtonElement.style.cursor = "pointer";
 }
 
 adviceButtonElement.addEventListener("click", fetchAdvice);
