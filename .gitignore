@@ -1,0 +1,9 @@
+*.md
+*.sketch
+*.fig
+*.xd
+.DS_Store
+.prettierignore
+/images
+/design
+.prettierrc
